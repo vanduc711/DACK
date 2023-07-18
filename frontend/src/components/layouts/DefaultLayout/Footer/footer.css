@@ -1,0 +1,56 @@
+.Footer {
+    background-color: #4D2900;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.Logo {
+    display: flex;
+    padding-left: 2rem;
+    width: 20rem;
+    height: 12rem;
+    align-items: center;
+    object-fit: contain;
+}
+
+ul li {
+    list-style: none;
+}
+
+.Content-Book {
+    margin-top: -2.2rem;
+    color: #FFFF;
+}
+.Content-Tranform {
+    margin-top: -4.6rem;
+    color: #FFFF;
+
+}
+.Content-Help {
+    margin-top: -4.6rem;
+    color: #FFFF;
+
+
+}
+.Content-hotPhone a{
+    color: orangered;
+    border: 1px solid orangered;
+    padding: 0.2rem;
+}
+
+.Content-hotPhone p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFFF;
+    margin-bottom: 1rem;
+}
+
+.End-Page {
+    position: absolute;
+    margin-top: 15rem;
+    color: #FFFF;
+}

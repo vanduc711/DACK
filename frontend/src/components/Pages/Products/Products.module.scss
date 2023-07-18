@@ -1,0 +1,107 @@
+.Products {
+    width: 100%;
+    margin-top: 50px;
+
+    .ProductsRight {
+        padding: 8px 8px 24px 8px;
+        background-color: #ededed;
+        box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%);
+
+        .ProductsRightHeader {
+
+            border-bottom:1px solid #d7d7d7 ;
+            padding: 20px;
+            margin: 0 16px;
+
+            .Sell {
+                width: 14%;
+                padding-left: 26px;
+            }
+
+        }
+
+        .GetAllProducts {
+            margin:0  16px;
+
+            .CardsItem {
+                margin-top: 12px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .CardsItemImg{
+                    margin-bottom: 10px;
+                    .CardImg {
+                        max-height: 190px;
+                        max-width: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .CardTitle{
+                    padding: 12px;
+
+                    .CardContent {
+                        h2{
+                            font-size: 1.6rem;
+                            line-height: 1.4em;
+                            word-break: break-word;
+                            white-space: normal;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 2;
+                            -webkit-box-orient: vertical;
+                        }
+    
+                    }
+    
+                    .CardPrice {
+                        span {
+                            color: #C92127;
+                            font-size: 1.6rem;
+                            font-weight: 600;
+                        }
+                    }
+                }
+
+                &:hover {
+                    box-shadow: 0px 0px 4px 2px rgb(0 0 0 / 10%);
+                    -webkit-box-shadow: 0px 0px 4px 2px rgb(0 0 0 / 10%);
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+    .ProductsLeft {
+        background-color: #ededed;
+        box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%);
+        padding: 8px 8px 24px 8px;
+        padding: 20px 16px;
+        
+        .ProductsLeftTitle {
+            color: #C92127;
+            font-weight: 600;
+        }
+
+        .ProductsLeftFilter {
+            margin-top: 20px;
+
+            span {
+                font-weight: 600;
+            }
+
+            ul{
+                margin-left: 10px;
+                margin-top: 6px;
+                li {
+                    padding: 6px 0;
+                    &:hover {
+                        cursor: pointer;
+                        color: #C92127;
+                    }
+                }
+            }
+        }
+    }
+}

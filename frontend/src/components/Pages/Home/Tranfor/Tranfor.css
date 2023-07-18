@@ -1,0 +1,16 @@
+.Tranfor_Content {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.Tranfor_desc {
+    text-align: center;
+    margin-top: 5rem;
+    width: 120rem;
+    font-size: 20px;
+}
+.Tranfor span {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 600;
+}

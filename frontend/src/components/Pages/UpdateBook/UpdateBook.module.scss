@@ -1,0 +1,38 @@
+
+.UpdateBook {
+    display: flex;
+    background-color: white;
+    margin-top: 60px;
+    align-items: center;
+
+    .UpdateBookForm {
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            margin-left: 2.5rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        label {
+            margin-left: 2.5rem;
+        }
+        input {
+            margin: 1rem 2.5rem;
+            height: 5rem;
+            width: 35rem;
+            border-radius: 1rem;
+            padding: 16px;
+            background-color: #fff6f4;
+        }
+
+        select {
+            margin: 12px 26px
+        }
+
+        button {
+            cursor: pointer;
+        }
+    }
+}

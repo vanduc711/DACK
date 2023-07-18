@@ -1,0 +1,71 @@
+
+.Modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba($color: #8888, $alpha: 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+    
+    .ModalContainer {
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        position: relative;
+        border-radius: 12px ;
+
+        .ModalButton {
+            position: absolute;
+            right: 0;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .ModalInformation {
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            margin-left: 22px;
+
+            span {
+                padding: 12px 0;
+            }
+        }
+
+        .ModalAdmin {
+            display: flex;
+            flex-direction: column;
+            margin: 0 22px;
+
+            button {
+                padding: 16px;
+                margin: 10px 0;
+                font-weight: 700;
+                font-size: 1.6rem;
+                color: rgb(201, 33, 39);
+                
+                &:hover {
+                    color: white;
+                    background-color:rgb(201, 33, 39) ;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .ModalLogout {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 10px;
+
+            &:hover {
+                color: rgb(201, 33, 39);
+                cursor: pointer;
+            }
+        }
+
+    }
+}

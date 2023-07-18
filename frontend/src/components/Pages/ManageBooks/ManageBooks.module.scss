@@ -1,0 +1,29 @@
+.ManageBooks {
+
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%);
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      button {
+        padding: 6px;
+        margin: 0 8px;
+        color: white;
+        font-size: 1.4rem;
+        cursor: pointer;
+        border-radius: 6px;
+      }
+      
+}

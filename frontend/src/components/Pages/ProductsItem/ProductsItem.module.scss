@@ -1,0 +1,103 @@
+.ProductsItems {
+    height: 100%;
+    width: 100%;
+    margin: 50px 0;
+    .ProductsItemsLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .ProductsItemsLeftImg {
+            max-height: 392px;
+            max-width: 100%;
+            height: auto;
+            width: auto;
+            margin-bottom: 24px;
+
+        }
+        
+        .ProductsItemsLeftAction {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            
+            button {
+                font-size: 1.6rem;
+            }
+
+        }
+    }
+
+    .ProductsItemsRight {
+        .ProductsItemsName {
+            font-size: 1.7em;
+            font-weight: 600;
+            color: #333;
+            line-height: 1.5em;
+            overflow-wrap: break-word;
+            padding-bottom: 26px;
+        }
+
+        .ProductsItemsMade {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 18px;
+        }
+
+        .ProductsItemsPrice {
+            padding: 8px 0 18px 0;
+            span {
+                font-size: 3.2rem;
+                line-height: 3.2rem;
+                color: #C92127;
+                font-weight: 700;
+            }
+
+        }
+
+        .ProductsItemsEndow {
+            display: flex;
+            padding-bottom: 8px;
+            span {
+                margin-right: 60px;
+            }
+        }
+
+        .ProductsItemsQuality {
+            padding: 12px 0;
+            display: flex;
+            align-items: center;
+
+            label {
+                margin: 0;
+            }
+
+            .quality {
+                margin-left: 20px;
+                .qualityHold {
+
+                    border: 1px solid #c1c1c1;
+                    border-radius: 4px;
+
+                    .qualityBtn {
+                        cursor: pointer;
+                        color: #646464;
+                        background-color: #fff;
+                        padding: 8px;
+                    }
+    
+                    .qualityInput {
+                        border: none !important;
+                        width: 3em !important;
+                        color: #0D0E0F;
+                        font-weight: 700;
+                        font-size: 1.2em;
+                        height: 100%;
+                        text-align: center;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,11 @@
+.Follows_Items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.Follows {
+    text-align: center;
+    margin: 80px 0;
+}
